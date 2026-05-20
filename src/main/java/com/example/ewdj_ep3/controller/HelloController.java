@@ -16,15 +16,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/hello")
 public class HelloController {
     private final HelloService helloService;
+    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HelloController.class);
 
     @GetMapping
     public String showHelloForm(InputDTO inputDTO) {
+        log.info("get hello");
         return "helloForm";
     }
 
     @PostMapping
     public String processHelloForm(InputDTO inputDTO, Model model) {
         model.addAttribute("helloMessage", helloService.sayHello(inputDTO.name()));
+        log.info("post hello, Name submitted: {}", inputDTO!=null? inputDTO.name(): "null");
+
+        log.info("An INFO Message");
+        log.warn("A WARN Message");
+        log.error("An ERROR Message");
+
+        log.debug("inside hello post method");
         return "helloResult";
     }
+
+
 }

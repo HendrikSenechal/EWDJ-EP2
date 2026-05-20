@@ -8,7 +8,7 @@
     <persistence-unit name="festivalPU" transaction-type="RESOURCE_LOCAL">
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 
-        <class>entity.Team</class>
+        <class>com.example.ewdj_ep3.domain.team.Team</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ewdj?serverTimezone=UTC"/>

@@ -1,0 +1,40 @@
+2026-05-20T13:41:31.288+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 191236 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T13:41:31.289+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T13:41:31.313+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T13:41:31.323+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T13:41:31.323+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T13:41:31.323+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T13:41:31.672+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T13:41:31.708+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2026-05-20T13:41:31.941+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T13:41:31.950+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T13:41:31.950+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T13:41:31.981+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T13:41:31.981+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 657 ms
+2026-05-20T13:41:32.105+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T13:41:32.134+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T13:41:32.154+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T13:41:32.349+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T13:41:32.367+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T13:41:32.560+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b56478e
+2026-05-20T13:41:32.562+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T13:41:32.595+02:00  WARN 191236 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T13:41:32.596+02:00  WARN 191236 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T13:41:32.606+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T13:41:33.052+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T13:41:33.520+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T13:41:33.632+02:00  WARN 191236 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T13:41:33.856+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T13:41:33.880+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T13:41:33.886+02:00  INFO 191236 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.867 seconds (process running for 3.284)
+2026-05-20T13:46:09.267+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T13:46:09.267+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T13:46:09.269+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-05-20T13:46:09.306+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : get hello

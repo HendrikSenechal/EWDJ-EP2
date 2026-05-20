@@ -1,11 +1,11 @@
-package com.example.ewdj_ep3.controller;
+package com.example.ewdj_ep3.domain.hello;
 
+import com.example.ewdj_ep3.dto.request.InputDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import com.example.ewdj_ep3.dto.request.InputDTO;
 import com.example.ewdj_ep3.service.HelloService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

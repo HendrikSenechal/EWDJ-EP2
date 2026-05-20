@@ -1,4 +1,4 @@
-package com.example.ewdj_ep3.controller;
+package com.example.ewdj_ep3.domain.index;
 
 import org.springframework.web.bind.annotation.GetMapping;
 

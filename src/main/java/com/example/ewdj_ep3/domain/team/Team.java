@@ -1,4 +1,4 @@
-package com.example.ewdj_ep3.entity;
+package com.example.ewdj_ep3.domain.team;
 
 import jakarta.persistence.*;
 import lombok.*;

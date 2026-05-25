@@ -3,7 +3,9 @@ package com.example.ewdj_ep3.enums;
 public enum Outcome {
     HOME_VICTORY("Home Victory"),
     AWAY_VICTORY("Away Victory"),
-    DRAW("Draw");
+    DRAW("Draw"),
+
+    SCHEDULED("Scheduled");
 
     private final String displayText;
 

@@ -29,6 +29,10 @@ public class Match {
 
     private LocalDateTime matchDateTime;
 
+    private String stadium;
+
+    private String worldCupGroup;
+
     @Setter
     private int scoreHomeTeam;
 

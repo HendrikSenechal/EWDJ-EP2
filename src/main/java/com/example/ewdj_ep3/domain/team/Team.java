@@ -1,8 +1,13 @@
 package com.example.ewdj_ep3.domain.team;
 
+import com.example.ewdj_ep3.domain.match.Match;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.format.annotation.NumberFormat;
+
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @NamedQueries({})
@@ -11,8 +16,7 @@ import org.springframework.format.annotation.NumberFormat;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @AllArgsConstructor
-@EqualsAndHashCode(exclude = { "id", "registrations", "vendors" })
-@ToString(exclude = { "id", "registrations" })
+@ToString(exclude = { "id" })
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,4 +27,14 @@ public class Team {
     private int worldRanking;
 
     private String worldCupGroup;
+
+    @OneToMany(mappedBy = "homeTeam")
+    @JsonIgnore
+    @Builder.Default
+    private Set<Match> homeMatches = new HashSet<>();
+
+    @OneToMany(mappedBy = "awayTeam")
+    @JsonIgnore
+    @Builder.Default
+    private Set<Match> awayMatches = new HashSet<>();
 }

@@ -20,6 +20,8 @@ import java.util.List;
 public class DataSeeder implements CommandLineRunner {
     private final TeamRepository teamRepository;
 
+    private List<Team> teams = new ArrayList<>();
+
     public DataSeeder(TeamRepository teamRepository) {
         this.teamRepository = teamRepository;
     }
@@ -35,8 +37,6 @@ public class DataSeeder implements CommandLineRunner {
     }
 
     private void seedTeams(Path csvFilePath) throws IOException {
-        List<Team> teams = new ArrayList<>();
-
         try (BufferedReader br = Files.newBufferedReader(csvFilePath)) {
             String line = br.readLine();
 

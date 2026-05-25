@@ -907,3 +907,4 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'ewdj.matches' doesn't exist
 
 2026-05-25T16:07:02.113+02:00  INFO 156396 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : ✅ Success: DataSeeder fully succeeded 
 
+2026-05-25T16:45:23.768+02:00  WARN 156396 --- [EWDJ_EP3] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m24s290ms321µs100ns).

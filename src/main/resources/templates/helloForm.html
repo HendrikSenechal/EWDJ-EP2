@@ -5,6 +5,8 @@
     <title>Insert name</title>
 </head>
 <body>
+
+
 <form th:action="@{/hello}" th:object="${inputDTO}" method="post">
     Name:
     <input type="text" th:field="*{name}" size="15" placeholder="name"/>

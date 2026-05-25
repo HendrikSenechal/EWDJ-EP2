@@ -1,12 +1,12 @@
 package com.example.ewdj_ep3.domain.hello;
 
+import com.example.ewdj_ep3.domain.team.TeamService;
 import com.example.ewdj_ep3.dto.request.InputDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import com.example.ewdj_ep3.service.HelloService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/hello")
 public class HelloController {
     private final HelloService helloService;
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(HelloController.class);
+    private final TeamService teamService;
 
     @GetMapping
     public String showHelloForm(InputDTO inputDTO) {
@@ -27,6 +27,11 @@ public class HelloController {
     @PostMapping
     public String processHelloForm(InputDTO inputDTO, Model model) {
         model.addAttribute("helloMessage", helloService.sayHello(inputDTO.name()));
+        model.addAttribute("teamName", teamService.teamName());
+
+        log.info(teamService.teamName());
+
+
         log.info("post hello, Name submitted: {}", inputDTO!=null? inputDTO.name(): "null");
 
         log.info("An INFO Message");
@@ -36,6 +41,4 @@ public class HelloController {
         log.debug("inside hello post method");
         return "helloResult";
     }
-
-
 }

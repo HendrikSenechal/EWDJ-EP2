@@ -1,4 +1,4 @@
-package com.example.ewdj_ep3.service;
+package com.example.ewdj_ep3.domain.hello;
 
 import org.springframework.stereotype.Service;
 

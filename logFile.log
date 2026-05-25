@@ -38,3 +38,1142 @@
 2026-05-20T13:46:09.267+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2026-05-20T13:46:09.269+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2026-05-20T13:46:09.306+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T13:58:53.147+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T13:59:11.886+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:21.668+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:30.786+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:31.513+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:36.710+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:37.274+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:24:37.849+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:26:31.020+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:26:31.647+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:27:19.164+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:27:19.164+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:27:19.164+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:27:19.164+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:27:38.660+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:27:38.660+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:27:38.660+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:27:38.660+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:27:39.840+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:27:41.192+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:27:41.192+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:27:41.192+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:27:41.192+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:28:24.985+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:28:26.058+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:28:26.059+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:28:26.059+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:28:26.059+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:28:30.799+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:28:30.799+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:28:30.801+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:28:30.801+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:28:31.646+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-7] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:28:32.408+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:28:32.408+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:28:32.408+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:28:32.408+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:29:35.821+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:29:35.821+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:29:35.821+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:29:35.821+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-4] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:29:36.579+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-8] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:29:37.327+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:29:37.327+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:29:37.327+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:29:37.327+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:30:02.103+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:30:02.103+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:30:02.103+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:30:02.103+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T15:30:02.818+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T15:30:03.825+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T15:30:03.825+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T15:30:03.825+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T15:30:03.825+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:08:53.061+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-7] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T16:08:53.061+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-7] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T16:08:53.061+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-7] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T16:08:53.061+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-7] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:08:55.055+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-5] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T16:08:55.979+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T16:08:55.979+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T16:08:55.979+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T16:08:55.979+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-10] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:23:46.270+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-9] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T16:23:47.992+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T16:23:47.993+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T16:23:47.993+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T16:23:47.993+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:24:21.537+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T16:24:21.537+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T16:24:21.537+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T16:24:21.537+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-1] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:24:22.309+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.ewdj_ep3.controller.HelloController  : get hello
+2026-05-20T16:24:23.026+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : post hello, Name submitted: a
+2026-05-20T16:24:23.026+02:00  INFO 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : An INFO Message
+2026-05-20T16:24:23.026+02:00  WARN 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : A WARN Message
+2026-05-20T16:24:23.026+02:00 ERROR 191236 --- [EWDJ_EP3] [http-nio-8080-exec-6] c.e.ewdj_ep3.controller.HelloController  : An ERROR Message
+2026-05-20T16:24:55.909+02:00  INFO 191236 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:24:55.925+02:00  INFO 191236 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:24:55.934+02:00  INFO 191236 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:24:55.976+02:00  INFO 191236 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:24:55.979+02:00  INFO 191236 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:24:59.138+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 206424 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:24:59.139+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:24:59.164+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:24:59.164+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:24:59.164+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:24:59.164+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:24:59.619+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:24:59.662+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2026-05-20T16:24:59.992+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:25:00.004+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:25:00.004+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:25:00.044+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:25:00.044+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 879 ms
+2026-05-20T16:25:00.217+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:25:00.281+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:25:00.314+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:25:00.587+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:25:00.614+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:25:00.901+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285e4daa
+2026-05-20T16:25:00.902+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:25:00.948+02:00  WARN 206424 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:25:00.949+02:00  WARN 206424 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:25:00.962+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:25:01.549+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:25:02.049+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:25:02.203+02:00  WARN 206424 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:25:02.426+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:25:02.456+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:25:02.464+02:00  INFO 206424 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 3.617 seconds (process running for 4.12)
+2026-05-20T16:25:03.015+02:00  INFO 206424 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T16:25:03.016+02:00  INFO 206424 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T16:25:03.016+02:00  INFO 206424 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-20T16:25:03.053+02:00  INFO 206424 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : get hello
+2026-05-20T16:25:06.719+02:00 ERROR 206424 --- [EWDJ_EP3] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.ewdj_ep3.persistence.TeamRepository.findById(Object)" because "this.teamRepository" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.ewdj_ep3.persistence.TeamRepository.findById(Object)" because "this.teamRepository" is null
+	at com.example.ewdj_ep3.domain.team.TeamService.teamName(TeamService.java:11) ~[classes/:na]
+	at com.example.ewdj_ep3.domain.hello.HelloController.processHelloForm(HelloController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.54.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.54.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-20T16:27:18.282+02:00  INFO 206424 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:27:18.295+02:00  INFO 206424 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:27:18.301+02:00  INFO 206424 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:27:18.360+02:00  INFO 206424 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:27:18.365+02:00  INFO 206424 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:27:20.945+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 234600 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:27:20.947+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:27:20.974+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:27:20.974+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:27:20.974+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:27:20.975+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:27:21.364+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:27:21.403+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-05-20T16:27:21.701+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:27:21.710+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:27:21.710+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:27:21.741+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:27:21.741+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 766 ms
+2026-05-20T16:27:21.856+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:27:21.888+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:27:21.907+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:27:22.090+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:27:22.109+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:27:22.335+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285e4daa
+2026-05-20T16:27:22.337+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:27:22.367+02:00  WARN 234600 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:27:22.368+02:00  WARN 234600 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:27:22.379+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:27:22.863+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:27:23.392+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:27:23.519+02:00  WARN 234600 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:27:23.737+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:27:23.761+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:27:23.768+02:00  INFO 234600 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 3.111 seconds (process running for 3.545)
+2026-05-20T16:28:37.441+02:00  INFO 234600 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T16:28:37.441+02:00  INFO 234600 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T16:28:37.442+02:00  INFO 234600 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-20T16:28:37.479+02:00 ERROR 234600 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.ewdj_ep3.persistence.TeamRepository.findById(Object)" because "this.teamRepository" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.example.ewdj_ep3.persistence.TeamRepository.findById(Object)" because "this.teamRepository" is null
+	at com.example.ewdj_ep3.domain.team.TeamService.teamName(TeamService.java:13) ~[classes/:na]
+	at com.example.ewdj_ep3.domain.hello.HelloController.processHelloForm(HelloController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.54.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.18.jar:6.2.18]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.54.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.18.jar:6.2.18]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1797) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.54.jar:10.1.54]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-05-20T16:28:40.624+02:00  INFO 234600 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:28:40.639+02:00  INFO 234600 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:28:40.642+02:00  INFO 234600 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:28:40.695+02:00  INFO 234600 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:28:40.699+02:00  INFO 234600 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:28:42.625+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 236304 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:28:42.627+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:28:42.654+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:28:42.654+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:28:42.655+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:28:42.655+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:28:43.047+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:28:43.087+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2026-05-20T16:28:43.352+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:28:43.360+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:28:43.360+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:28:43.389+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:28:43.389+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 734 ms
+2026-05-20T16:28:43.504+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:28:43.534+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:28:43.555+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:28:43.722+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:28:43.742+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:28:43.967+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@12f4ec20
+2026-05-20T16:28:43.968+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:28:44.005+02:00  WARN 236304 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:28:44.005+02:00  WARN 236304 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:28:44.019+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:28:44.493+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:28:44.946+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:28:45.074+02:00  WARN 236304 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:28:45.272+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:28:45.295+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:28:45.300+02:00  INFO 236304 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.969 seconds (process running for 3.448)
+2026-05-20T16:29:25.510+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-20T16:29:25.510+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-20T16:29:25.511+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-20T16:29:25.551+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-3] c.e.e.domain.hello.HelloController       : get hello
+2026-05-20T16:29:28.531+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : Belgium
+2026-05-20T16:29:28.533+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : post hello, Name submitted: a
+2026-05-20T16:29:28.533+02:00  INFO 236304 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : An INFO Message
+2026-05-20T16:29:28.533+02:00  WARN 236304 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : A WARN Message
+2026-05-20T16:29:28.533+02:00 ERROR 236304 --- [EWDJ_EP3] [http-nio-8080-exec-2] c.e.e.domain.hello.HelloController       : An ERROR Message
+2026-05-20T16:52:10.680+02:00  INFO 236304 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:52:10.694+02:00  INFO 236304 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:52:10.697+02:00  INFO 236304 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:52:10.745+02:00  INFO 236304 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:52:10.748+02:00  INFO 236304 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:52:13.557+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 239808 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:52:13.558+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:52:13.587+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:52:13.588+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:52:13.588+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:52:13.588+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:52:13.938+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:52:13.977+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2026-05-20T16:52:14.241+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:52:14.250+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:52:14.250+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:52:14.280+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:52:14.280+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 692 ms
+2026-05-20T16:52:14.388+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:52:14.419+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:52:14.437+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:52:14.597+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:52:14.615+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:52:14.834+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285e4daa
+2026-05-20T16:52:14.835+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:52:14.875+02:00  WARN 239808 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:52:14.876+02:00  WARN 239808 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:52:14.887+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:52:15.354+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:52:15.783+02:00  WARN 239808 --- [EWDJ_EP3] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:430) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:346) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:241) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:174) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 42 common frames omitted
+
+2026-05-20T16:52:15.788+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:52:15.925+02:00  WARN 239808 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:52:16.177+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:52:16.207+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:52:16.214+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.931 seconds (process running for 3.377)
+2026-05-20T16:52:16.278+02:00  WARN 239808 --- [EWDJ_EP3] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1064, SQLState: 42000
+2026-05-20T16:52:16.278+02:00 ERROR 239808 --- [EWDJ_EP3] [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,name,world_ranking) values (null,'Belgium',0)' at line 1
+2026-05-20T16:52:16.288+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-05-20T16:52:16.308+02:00 ERROR 239808 --- [EWDJ_EP3] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not execute statement [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,name,world_ranking) values (null,'Belgium',0)' at line 1] [insert into teams (group,name,world_ranking) values (?,?,?)]; SQL [insert into teams (group,name,world_ranking) values (?,?,?)]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:281) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:256) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:241) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:560) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.2.18.jar:6.2.18]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:343) ~[spring-tx-6.2.18.jar:6.2.18]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:160) ~[spring-tx-6.2.18.jar:6.2.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:165) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223) ~[spring-aop-6.2.18.jar:6.2.18]
+	at jdk.proxy4/jdk.proxy4.$Proxy117.save(Unknown Source) ~[na:na]
+	at com.example.ewdj_ep3.seed.DataSeeder.run(DataSeeder.java:27) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.5.14.jar:3.5.14]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: org.hibernate.exception.SQLGrammarException: could not execute statement [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,name,world_ranking) values (null,'Belgium',0)' at line 1] [insert into teams (group,name,world_ranking) values (?,?,?)]
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:66) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.id.insert.GetGeneratedKeysDelegate.performMutation(GetGeneratedKeysDelegate.java:116) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.MutationExecutorSingleNonBatched.performNonBatchedOperations(MutationExecutorSingleNonBatched.java:47) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.jdbc.mutation.internal.AbstractMutationExecutor.execute(AbstractMutationExecutor.java:55) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.doStaticInserts(InsertCoordinatorStandard.java:194) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.coordinateInsert(InsertCoordinatorStandard.java:132) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.persister.entity.mutation.InsertCoordinatorStandard.insert(InsertCoordinatorStandard.java:95) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:85) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:682) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:293) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:274) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:394) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:308) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:224) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:136) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:177) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.persist(DefaultPersistEventListener.java:95) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:79) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:127) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:761) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:745) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:320) ~[spring-orm-6.2.18.jar:6.2.18]
+	at jdk.proxy4/jdk.proxy4.$Proxy114.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:654) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:515) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:284) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:720) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:174) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:149) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:380) ~[spring-tx-6.2.18.jar:6.2.18]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.2.18.jar:6.2.18]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.18.jar:6.2.18]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.18.jar:6.2.18]
+	... 29 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group,name,world_ranking) values (null,'Belgium',0)' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:194) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 75 common frames omitted
+
+2026-05-20T16:52:16.313+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:52:16.328+02:00  INFO 239808 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:52:16.332+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:52:16.340+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:52:16.345+02:00  INFO 239808 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:55:34.027+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 240108 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:55:34.028+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:55:34.055+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:55:34.055+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:55:34.055+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:55:34.055+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:55:34.432+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:55:34.472+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2026-05-20T16:55:34.737+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:55:34.745+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:55:34.745+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:55:34.780+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:55:34.780+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2026-05-20T16:55:34.909+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:55:34.942+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:55:34.965+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:55:35.150+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:55:35.169+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:55:35.376+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@165b0a07
+2026-05-20T16:55:35.377+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:55:35.409+02:00  WARN 240108 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:55:35.410+02:00  WARN 240108 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:55:35.421+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:55:35.935+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:55:36.337+02:00  WARN 240108 --- [EWDJ_EP3] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:430) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:346) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:241) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:174) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 42 common frames omitted
+
+2026-05-20T16:55:36.343+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:55:36.489+02:00  WARN 240108 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:55:36.738+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:55:36.765+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:55:36.771+02:00  INFO 240108 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 3.033 seconds (process running for 3.481)
+2026-05-20T16:55:36.774+02:00 ERROR 240108 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T16:55:36.775+02:00 ERROR 240108 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : src\main\resources\populate-data\teams-data.csv
+2026-05-20T16:55:51.113+02:00  INFO 240108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:55:51.131+02:00  INFO 240108 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:55:51.133+02:00  INFO 240108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:55:51.153+02:00  INFO 240108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:55:51.158+02:00  INFO 240108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:55:54.356+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 240388 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:55:54.358+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:55:54.383+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:55:54.383+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:55:54.384+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:55:54.384+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:55:54.743+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:55:54.779+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2026-05-20T16:55:55.033+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:55:55.042+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:55:55.042+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:55:55.071+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:55:55.073+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 689 ms
+2026-05-20T16:55:55.179+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:55:55.210+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:55:55.230+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:55:55.400+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:55:55.419+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:55:55.619+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33b08187
+2026-05-20T16:55:55.620+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:55:55.649+02:00  WARN 240388 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:55:55.649+02:00  WARN 240388 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:55:55.659+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:55:56.126+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:55:56.490+02:00  WARN 240388 --- [EWDJ_EP3] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:430) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:346) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:241) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:174) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 42 common frames omitted
+
+2026-05-20T16:55:56.498+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:55:56.614+02:00  WARN 240388 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:55:56.817+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:55:56.843+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:55:56.848+02:00  INFO 240388 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.771 seconds (process running for 3.203)
+2026-05-20T16:55:56.850+02:00 ERROR 240388 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T16:55:56.850+02:00 ERROR 240388 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : src\main\resources\seed-data\teams-data.csv
+2026-05-20T16:56:25.639+02:00  INFO 240388 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:56:25.657+02:00  INFO 240388 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:56:25.660+02:00  INFO 240388 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:56:25.678+02:00  INFO 240388 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:56:25.683+02:00  INFO 240388 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:56:28.398+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 243776 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:56:28.400+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:56:28.427+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:56:28.427+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:56:28.428+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:56:28.428+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:56:28.817+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:56:28.860+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2026-05-20T16:56:29.115+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:56:29.123+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:56:29.123+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:56:29.154+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:56:29.155+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 726 ms
+2026-05-20T16:56:29.265+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:56:29.294+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:56:29.313+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:56:29.486+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:56:29.505+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:56:29.720+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@631292ea
+2026-05-20T16:56:29.722+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:56:29.753+02:00  WARN 243776 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:56:29.754+02:00  WARN 243776 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:56:29.764+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:56:30.260+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:56:30.639+02:00  WARN 243776 --- [EWDJ_EP3] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:430) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:346) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:241) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:174) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 42 common frames omitted
+
+2026-05-20T16:56:30.644+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:56:30.756+02:00  WARN 243776 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:56:30.990+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:56:31.014+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:56:31.020+02:00  INFO 243776 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.926 seconds (process running for 3.372)
+2026-05-20T16:56:31.022+02:00 ERROR 243776 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T16:56:31.023+02:00 ERROR 243776 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : src\main\resources\seed-data\teams-data.csv
+2026-05-20T16:58:10.542+02:00  INFO 243776 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T16:58:10.558+02:00  INFO 243776 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T16:58:10.561+02:00  INFO 243776 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:58:10.571+02:00  INFO 243776 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T16:58:10.576+02:00  INFO 243776 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T16:58:13.304+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 206244 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T16:58:13.307+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T16:58:13.336+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T16:58:13.336+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T16:58:13.336+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T16:58:13.336+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T16:58:13.738+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T16:58:13.779+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2026-05-20T16:58:14.045+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T16:58:14.053+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T16:58:14.053+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T16:58:14.083+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T16:58:14.083+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 747 ms
+2026-05-20T16:58:14.197+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T16:58:14.232+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T16:58:14.251+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T16:58:14.415+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T16:58:14.433+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T16:58:14.640+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d768309
+2026-05-20T16:58:14.641+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T16:58:14.673+02:00  WARN 206244 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T16:58:14.673+02:00  WARN 206244 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T16:58:14.684+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T16:58:15.174+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T16:58:15.540+02:00  WARN 206244 --- [EWDJ_EP3] [restartedMain] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table teams (world_ranking integer not null, id bigint not null auto_increment, group varchar(255), name varchar(255), primary key (id)) engine=InnoDB" via JDBC [You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createTables(SchemaCreatorImpl.java:430) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createSequencesTablesConstraints(SchemaCreatorImpl.java:346) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.createFromMetadata(SchemaCreatorImpl.java:241) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.performCreation(SchemaCreatorImpl.java:174) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.internal.SchemaCreatorImpl.doCreation(SchemaCreatorImpl.java:120) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:250) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:388) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:364) ~[spring-orm-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:974) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'group varchar(255), name varchar(255), primary key (id)) engine=InnoDB' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:839) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:687) ~[mysql-connector-j-9.7.0.jar:9.7.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.49.Final.jar:6.6.49.Final]
+	... 42 common frames omitted
+
+2026-05-20T16:58:15.546+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T16:58:15.663+02:00  WARN 206244 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T16:58:15.876+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T16:58:15.901+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T16:58:15.911+02:00  INFO 206244 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.891 seconds (process running for 3.335)
+2026-05-20T16:58:15.913+02:00 ERROR 206244 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T17:00:37.181+02:00  INFO 206244 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T17:00:37.195+02:00  INFO 206244 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T17:00:37.197+02:00  INFO 206244 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:00:37.217+02:00  INFO 206244 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T17:00:37.223+02:00  INFO 206244 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T17:00:38.652+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 234844 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T17:00:38.653+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T17:00:38.680+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T17:00:38.680+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T17:00:38.680+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T17:00:38.682+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T17:00:39.064+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T17:00:39.102+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2026-05-20T17:00:39.367+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T17:00:39.375+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T17:00:39.375+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T17:00:39.406+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T17:00:39.406+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 724 ms
+2026-05-20T17:00:39.518+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T17:00:39.549+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T17:00:39.568+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T17:00:39.737+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T17:00:39.754+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T17:00:39.959+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40969f99
+2026-05-20T17:00:39.961+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T17:00:39.990+02:00  WARN 234844 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T17:00:39.992+02:00  WARN 234844 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T17:00:40.001+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T17:00:40.507+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T17:00:40.931+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:00:41.055+02:00  WARN 234844 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T17:00:41.262+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T17:00:41.286+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T17:00:41.291+02:00  INFO 234844 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.929 seconds (process running for 3.388)
+2026-05-20T17:00:41.293+02:00 ERROR 234844 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T17:00:59.251+02:00  INFO 234844 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T17:00:59.269+02:00  INFO 234844 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T17:00:59.272+02:00  INFO 234844 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:00:59.337+02:00  INFO 234844 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T17:00:59.341+02:00  INFO 234844 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T17:01:00.921+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 242012 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T17:01:00.923+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T17:01:00.952+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T17:01:00.952+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T17:01:00.953+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T17:01:00.953+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T17:01:01.356+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T17:01:01.400+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2026-05-20T17:01:01.675+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T17:01:01.682+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T17:01:01.684+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T17:01:01.714+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T17:01:01.716+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 763 ms
+2026-05-20T17:01:01.829+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T17:01:01.859+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T17:01:01.879+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T17:01:02.051+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T17:01:02.070+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T17:01:02.274+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d768309
+2026-05-20T17:01:02.276+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T17:01:02.305+02:00  WARN 242012 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T17:01:02.305+02:00  WARN 242012 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T17:01:02.315+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T17:01:02.785+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T17:01:03.228+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:01:03.379+02:00  WARN 242012 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T17:01:03.627+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T17:01:03.656+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T17:01:03.662+02:00  INFO 242012 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 3.037 seconds (process running for 3.474)
+2026-05-20T17:01:03.665+02:00 ERROR 242012 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+2026-05-20T17:02:16.513+02:00  INFO 242012 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T17:02:16.527+02:00  INFO 242012 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T17:02:16.529+02:00  INFO 242012 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:02:16.568+02:00  INFO 242012 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T17:02:16.573+02:00  INFO 242012 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T17:02:19.204+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 246308 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T17:02:19.205+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T17:02:19.233+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T17:02:19.233+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T17:02:19.233+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T17:02:19.233+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T17:02:19.589+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T17:02:19.625+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2026-05-20T17:02:19.879+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T17:02:19.888+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T17:02:19.888+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T17:02:19.916+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T17:02:19.916+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 683 ms
+2026-05-20T17:02:20.022+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T17:02:20.054+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T17:02:20.073+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T17:02:20.247+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T17:02:20.266+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T17:02:20.469+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d768309
+2026-05-20T17:02:20.470+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T17:02:20.499+02:00  WARN 246308 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T17:02:20.500+02:00  WARN 246308 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T17:02:20.509+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T17:02:20.974+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T17:02:21.390+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:02:21.517+02:00  WARN 246308 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T17:02:21.710+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T17:02:21.731+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T17:02:21.736+02:00  INFO 246308 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.81 seconds (process running for 3.241)
+2026-05-20T17:02:21.738+02:00 ERROR 246308 --- [EWDJ_EP3] [restartedMain] com.example.ewdj_ep3.seed.DataSeeder     : Probleem bij seeding
+
+java.nio.file.NoSuchFileException: src\main\resources\seed-data\teams-data.csv
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[na:na]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[na:na]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[na:na]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[na:na]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[na:na]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[na:na]
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2897) ~[na:na]
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2930) ~[na:na]
+	at com.example.ewdj_ep3.seed.DataSeeder.seedTeams(DataSeeder.java:39) ~[classes/:na]
+	at com.example.ewdj_ep3.seed.DataSeeder.run(DataSeeder.java:30) ~[classes/:na]
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772) ~[spring-boot-3.5.14.jar:3.5.14]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[na:na]
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[na:na]
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[na:na]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.example.ewdj_ep3.EwdjEp3Application.main(EwdjEp3Application.java:12) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+
+2026-05-20T17:03:24.106+02:00  INFO 246308 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T17:03:24.122+02:00  INFO 246308 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T17:03:24.125+02:00  INFO 246308 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:03:24.163+02:00  INFO 246308 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T17:03:24.168+02:00  INFO 246308 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-20T17:03:26.900+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Starting EwdjEp3Application using Java 21.0.4 with PID 241556 (G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2\target\classes started by hendr in G:\Toegepaste Informatica\TI 3 - 2025-26\S2 - Enterprise web development java\EWDJ-EP2)
+2026-05-20T17:03:26.901+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : No active profile set, falling back to 1 default profile: "default"
+2026-05-20T17:03:26.929+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-xjc\4.0.6\jaxb-xjc-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-core.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.6/jaxb-impl.jar
+2026-05-20T17:03:26.929+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\hendr\.m2\repository\com\sun\xml\bind\jaxb-core\4.0.6\jaxb-core-4.0.6.jar referenced one or more files that do not exist: file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.activation-api.jar,file:/C:/Users/hendr/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.6/jakarta.xml.bind-api.jar
+2026-05-20T17:03:26.929+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-20T17:03:26.929+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-20T17:03:27.297+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-20T17:03:27.338+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interface.
+2026-05-20T17:03:27.606+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-20T17:03:27.613+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-20T17:03:27.613+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-05-20T17:03:27.644+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-20T17:03:27.644+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 713 ms
+2026-05-20T17:03:27.752+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-20T17:03:27.780+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-05-20T17:03:27.799+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-20T17:03:27.981+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-20T17:03:28.001+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-20T17:03:28.207+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79142b9d
+2026-05-20T17:03:28.208+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-20T17:03:28.238+02:00  WARN 241556 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-20T17:03:28.239+02:00  WARN 241556 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2026-05-20T17:03:28.250+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-20T17:03:28.745+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-20T17:03:29.185+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T17:03:29.318+02:00  WARN 241556 --- [EWDJ_EP3] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-20T17:03:29.523+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-05-20T17:03:29.547+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-20T17:03:29.553+02:00  INFO 241556 --- [EWDJ_EP3] [restartedMain] c.example.ewdj_ep3.EwdjEp3Application    : Started EwdjEp3Application in 2.949 seconds (process running for 3.41)
+2026-05-20T17:22:54.544+02:00  WARN 241556 --- [EWDJ_EP3] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m57s4ms884µs600ns).
+2026-05-20T18:46:06.646+02:00  WARN 241556 --- [EWDJ_EP3] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=26m12s79ms694µs300ns).
+2026-05-20T21:37:13.224+02:00  WARN 241556 --- [EWDJ_EP3] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h33m37s164ms225µs300ns).
+2026-05-20T23:45:21.571+02:00  INFO 241556 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-20T23:45:21.589+02:00  INFO 241556 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-20T23:45:21.597+02:00  INFO 241556 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-20T23:45:21.653+02:00  INFO 241556 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-20T23:45:21.657+02:00  INFO 241556 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

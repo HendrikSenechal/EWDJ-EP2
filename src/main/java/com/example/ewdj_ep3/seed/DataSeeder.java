@@ -59,14 +59,15 @@ public class DataSeeder implements CommandLineRunner {
 
                 String[] teamFields = line.split(",", -1);
 
-                if (teamFields.length != 3)
+                if (teamFields.length != 4)
                     continue;
 
                 teams.add(
                         Team.builder()
                                 .name(teamFields[0].trim())
-                                .worldRanking(Integer.parseInt(teamFields[1].trim()))
-                                .worldCupGroup(teamFields[2].trim())
+                                .flag(teamFields[1].trim())
+                                .worldRanking(Integer.parseInt(teamFields[2].trim()))
+                                .worldCupGroup(teamFields[3].trim())
                                 .build()
                 );
             }

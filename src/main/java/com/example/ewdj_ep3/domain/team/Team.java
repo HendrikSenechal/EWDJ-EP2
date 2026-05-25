@@ -4,10 +4,11 @@ import com.example.ewdj_ep3.domain.match.Match;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
-import org.springframework.format.annotation.NumberFormat;
-
 import java.util.HashSet;
 import java.util.Set;
+import java.util.List;
+import java.util.Comparator;
+import java.util.stream.Stream;
 
 @Entity
 @NamedQueries({})
@@ -23,6 +24,8 @@ public class Team {
     private Long id;
 
     private String name;
+
+    private String flag;
 
     private int worldRanking;
 

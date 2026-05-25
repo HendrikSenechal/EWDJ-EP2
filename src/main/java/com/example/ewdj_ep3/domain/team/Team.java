@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @AllArgsConstructor
-@ToString(exclude = { "id" })
+@ToString(exclude = { "id", "homeMatches", "homeMatches" })
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

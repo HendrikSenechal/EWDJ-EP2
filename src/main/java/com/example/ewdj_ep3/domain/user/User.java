@@ -14,7 +14,7 @@ import java.util.Set;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @AllArgsConstructor
-@ToString(exclude = { "id" })
+@ToString(exclude = { "id", "roles" })
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

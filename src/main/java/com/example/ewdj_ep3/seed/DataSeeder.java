@@ -55,10 +55,10 @@ public class DataSeeder implements CommandLineRunner {
             log.info("✅ Success: Seeded teams");
 
             seedMatches(Paths.get("src/main/resources/seed-data/match-data.csv"));
-            log.info("✅ Success: Seeded Matches \n");
+            log.info("✅ Success: Seeded Matches");
 
             seedRoles();
-            log.info("✅ Success: Seeded Roles \n");
+            log.info("✅ Success: Seeded Roles");
 
             seedUsers(Paths.get("src/main/resources/seed-data/user-data.csv"));
             log.info("✅ Success: Seeded Users \n");

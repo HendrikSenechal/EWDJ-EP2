@@ -1,11 +1,16 @@
 package com.example.ewdj_ep3.seed;
 
 import com.example.ewdj_ep3.domain.match.Match;
+import com.example.ewdj_ep3.domain.role.Role;
 import com.example.ewdj_ep3.domain.team.Team;
+import com.example.ewdj_ep3.domain.user.User;
 import com.example.ewdj_ep3.enums.Outcome;
 import com.example.ewdj_ep3.persistence.MatchRepository;
+import com.example.ewdj_ep3.persistence.RoleRepository;
+import com.example.ewdj_ep3.persistence.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 import com.example.ewdj_ep3.persistence.TeamRepository;
 
@@ -17,20 +22,27 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Slf4j
 @Component
 public class DataSeeder implements CommandLineRunner {
     private final TeamRepository teamRepository;
-
     private final MatchRepository matchRepository;
-
+    private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
+    private final RoleRepository roleRepository;
     private List<Team> teams = new ArrayList<>();
 
-    public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository) {
+    public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository, UserRepository userRepository, PasswordEncoder passwordEncoder, RoleRepository roleRepository) {
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
+        this.userRepository = userRepository;
+        this. passwordEncoder = passwordEncoder;
+        this.roleRepository = roleRepository;
     }
 
     @Override
@@ -44,6 +56,12 @@ public class DataSeeder implements CommandLineRunner {
 
             seedMatches(Paths.get("src/main/resources/seed-data/match-data.csv"));
             log.info("✅ Success: Seeded Matches \n");
+
+            seedRoles();
+            log.info("✅ Success: Seeded Roles \n");
+
+            seedUsers(Paths.get("src/main/resources/seed-data/user-data.csv"));
+            log.info("✅ Success: Seeded Users \n");
 
             log.info("✅ Success: DataSeeder fully succeeded \n");
         } catch (Exception exception) {
@@ -116,5 +134,54 @@ public class DataSeeder implements CommandLineRunner {
                 .filter(team -> team.getName().equalsIgnoreCase(name))
                 .findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Team not found: " + name));
+    }
+
+    private void seedRoles() {
+        if (roleRepository.count() > 0) return;
+
+        List<Role> roles = List.of(
+                Role.builder().name("ADMIN").build(),
+                Role.builder().name("USER").build()
+        );
+
+        roleRepository.saveAll(roles);
+    }
+
+    private void seedUsers(Path csvFilePath) throws IOException {
+
+        if (userRepository.count() > 0) return;
+
+        List<User> users = new ArrayList<>();
+
+        try (BufferedReader br = Files.newBufferedReader(csvFilePath)) {
+
+            String line = br.readLine();
+
+            while ((line = br.readLine()) != null) {
+
+                String[] fields = line.split(",", -1);
+
+                if (fields.length != 5)
+                    continue;
+
+                Set<Role> roles = Arrays.stream(fields[4].trim().split("\\|"))
+                        .map(String::trim)
+                        .map(roleName -> roleRepository.findByName(roleName)
+                                .orElseThrow(() -> new IllegalArgumentException("Role not found: " + roleName)))
+                        .collect(Collectors.toSet());
+
+                users.add(
+                        User.builder()
+                                .name(fields[0].trim())
+                                .lastname(fields[1].trim())
+                                .email(fields[2].trim())
+                                .passwordHash(passwordEncoder.encode(fields[3].trim()))
+                                .roles(roles)
+                                .build()
+                );
+            }
+        }
+
+        userRepository.saveAll(users);
     }
 }

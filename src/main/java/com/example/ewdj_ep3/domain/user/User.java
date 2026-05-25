@@ -1,0 +1,39 @@
+package com.example.ewdj_ep3.domain.user;
+
+import com.example.ewdj_ep3.domain.role.Role;
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.util.HashSet;
+import java.util.Set;
+
+@Entity
+@NamedQueries({})
+@Table(name = "Users")
+@Builder
+@Getter
+@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@AllArgsConstructor
+@ToString(exclude = { "id" })
+public class User {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+
+    private String lastname;
+
+    private String email;
+
+    private String passwordHash;
+
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "USER_ROLES",
+            joinColumns = @JoinColumn(name = "USER_ID"),
+            inverseJoinColumns = @JoinColumn(name = "ROLE_ID")
+    )
+    @Builder.Default
+    private Set<Role> roles = new HashSet<>();
+}

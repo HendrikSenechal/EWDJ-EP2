@@ -1,0 +1,12 @@
+name,lastname,email,password,roles
+Jens,Peeters,jens@gmail.com,password123,ADMIN
+Hendrik,Senechal,hendrik@gmail.com,password123,ADMIN|USER
+Lotte,Maes,lotte@gmail.com,password123,USER
+Bram,Vermeulen,bram.vermeulen@gmail.com,password123,USER
+Hanne,Jacobs,hanne.jacobs@gmail.com,password123,USER
+Tibo,Willems,tibo.willems@gmail.com,password123,USER
+Rune,Claes,rune.claes@gmail.com,password123,USER
+Lore,Goossens,lore.goossens@gmail.com,password123,USER
+Milan,Mertens,milan.mertens@gmail.com,password123,USER
+Fien,Van den Broeck,fien.vandenbroeck@gmail.com,password123,USER
+Seppe,Dubois,seppe.dubois@gmail.com,password123,USER

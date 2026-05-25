@@ -6,6 +6,8 @@ import com.example.ewdj_ep3.enums.Outcome;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.LocalDateTime;
+
 @Entity
 @Table(name = "Predictions")
 @Builder
@@ -28,13 +30,35 @@ public class Prediction {
     @JoinColumn(name = "MATCH_ID")
     private Match match;
 
-    @Setter
     private int scoreHomeTeam;
 
-    @Setter
     private int scoreAwayTeam;
 
     @Enumerated(EnumType.STRING)
-    @Setter
     private Outcome outcome;
+
+    public void setScoreHomeTeam(int scoreHomeTeam) {
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
+            throw new IllegalStateException("Cannot edit prediction after match has started");
+        }
+
+        this.scoreHomeTeam = scoreHomeTeam;
+    }
+
+    public void setScoreAwayTeam(int scoreAwayTeam){
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
+            throw new IllegalStateException("Cannot edit prediction after match has started");
+        }
+
+        this.scoreAwayTeam = scoreAwayTeam;
+
+    }
+
+    public void setOutcome(Outcome outcome){
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
+            throw new IllegalStateException("Cannot edit prediction after match has started");
+        }
+
+        this.outcome = outcome;
+    }
 }

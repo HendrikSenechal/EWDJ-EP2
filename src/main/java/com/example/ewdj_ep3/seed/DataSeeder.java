@@ -1,18 +1,17 @@
 package com.example.ewdj_ep3.seed;
 
 import com.example.ewdj_ep3.domain.match.Match;
+import com.example.ewdj_ep3.domain.prediction.Prediction;
+import com.example.ewdj_ep3.domain.prediction.PredictionId;
 import com.example.ewdj_ep3.domain.role.Role;
 import com.example.ewdj_ep3.domain.team.Team;
 import com.example.ewdj_ep3.domain.user.User;
 import com.example.ewdj_ep3.enums.Outcome;
-import com.example.ewdj_ep3.persistence.MatchRepository;
-import com.example.ewdj_ep3.persistence.RoleRepository;
-import com.example.ewdj_ep3.persistence.UserRepository;
+import com.example.ewdj_ep3.persistence.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-import com.example.ewdj_ep3.persistence.TeamRepository;
 
 import java.io.BufferedReader;
 import java.nio.file.Files;
@@ -21,10 +20,7 @@ import java.nio.file.Path;
 import java.io.IOException;
 import java.nio.file.Paths;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Slf4j
@@ -35,14 +31,17 @@ public class DataSeeder implements CommandLineRunner {
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
     private final RoleRepository roleRepository;
+    private final PredictionRepository predictionRepository;
     private List<Team> teams = new ArrayList<>();
 
-    public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository, UserRepository userRepository, PasswordEncoder passwordEncoder, RoleRepository roleRepository) {
+    public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository, UserRepository userRepository, PasswordEncoder passwordEncoder,
+                      RoleRepository roleRepository, PredictionRepository predictionRepository) {
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
         this.userRepository = userRepository;
         this. passwordEncoder = passwordEncoder;
         this.roleRepository = roleRepository;
+        this.predictionRepository = predictionRepository;
     }
 
     @Override
@@ -51,17 +50,20 @@ public class DataSeeder implements CommandLineRunner {
             log.info("\n");
             log.info("✅ Starting DataSeeder \n");
 
+            seedRoles();
+            log.info("✅ Success: Seeded Roles");
+
+            seedUsers(Paths.get("src/main/resources/seed-data/user-data.csv"));
+            log.info("✅ Success: Seeded Users");
+
             seedTeams(Paths.get("src/main/resources/seed-data/team-data.csv"));
             log.info("✅ Success: Seeded teams");
 
             seedMatches(Paths.get("src/main/resources/seed-data/match-data.csv"));
             log.info("✅ Success: Seeded Matches");
 
-            seedRoles();
-            log.info("✅ Success: Seeded Roles");
-
-            seedUsers(Paths.get("src/main/resources/seed-data/user-data.csv"));
-            log.info("✅ Success: Seeded Users \n");
+            seedPredictions();
+            log.info("✅ Success: Seeded Matches");
 
             log.info("✅ Success: DataSeeder fully succeeded \n");
         } catch (Exception exception) {
@@ -183,5 +185,56 @@ public class DataSeeder implements CommandLineRunner {
         }
 
         userRepository.saveAll(users);
+    }
+
+    private void seedPredictions() {
+
+        if (predictionRepository.count() > 0) return;
+
+        List<User> users = userRepository.findAll();
+        List<Match> matches = matchRepository.findAll();
+
+        if (matches.isEmpty()) return;
+
+        Match firstMatch = matches.stream()
+                .sorted(Comparator.comparing(Match::getMatchDateTime))
+                .findFirst()
+                .orElseThrow();
+
+        List<Prediction> predictions = new ArrayList<>();
+
+        for (int i = 0; i < users.size() / 2; i++) {
+
+            User user = users.get(i);
+
+            int homeScore = (int) (Math.random() * 5);
+            int awayScore = (int) (Math.random() * 5);
+
+            Outcome outcome;
+
+            if (homeScore > awayScore) {
+                outcome = Outcome.HOME_VICTORY;
+            } else if (awayScore > homeScore) {
+                outcome = Outcome.AWAY_VICTORY;
+            } else {
+                outcome = Outcome.DRAW;
+            }
+
+            predictions.add(
+                    Prediction.builder()
+                            .id(new PredictionId(
+                                    user.getId(),
+                                    firstMatch.getId()
+                            ))
+                            .user(user)
+                            .match(firstMatch)
+                            .scoreHomeTeam(homeScore)
+                            .scoreAwayTeam(awayScore)
+                            .outcome(outcome)
+                            .build()
+            );
+        }
+
+        predictionRepository.saveAll(predictions);
     }
 }

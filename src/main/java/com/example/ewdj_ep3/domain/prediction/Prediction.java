@@ -38,16 +38,16 @@ public class Prediction {
     private Outcome outcome;
 
     public void setScoreHomeTeam(int scoreHomeTeam) {
-        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
-            throw new IllegalStateException("Cannot edit prediction after match has started");
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now()) || match.getOutcome() != Outcome.SCHEDULED) {
+            throw new IllegalStateException("Cannot edit prediction score after match has started");
         }
 
         this.scoreHomeTeam = scoreHomeTeam;
     }
 
     public void setScoreAwayTeam(int scoreAwayTeam){
-        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
-            throw new IllegalStateException("Cannot edit prediction after match has started");
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now()) || match.getOutcome() != Outcome.SCHEDULED) {
+            throw new IllegalStateException("Cannot edit prediction score after match has started");
         }
 
         this.scoreAwayTeam = scoreAwayTeam;
@@ -55,8 +55,8 @@ public class Prediction {
     }
 
     public void setOutcome(Outcome outcome){
-        if (match.getMatchDateTime().isBefore(LocalDateTime.now())) {
-            throw new IllegalStateException("Cannot edit prediction after match has started");
+        if (match.getMatchDateTime().isBefore(LocalDateTime.now()) || match.getOutcome() != Outcome.SCHEDULED) {
+            throw new IllegalStateException("Cannot edit prediction outcome after match has started");
         }
 
         this.outcome = outcome;

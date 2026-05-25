@@ -16,5 +16,4 @@ public class EwdjEp3Application implements WebMvcConfigurer {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addRedirectViewController("/", "/hello");
     }
-
 }

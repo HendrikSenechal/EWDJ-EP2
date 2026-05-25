@@ -1,5 +1,6 @@
 package com.example.ewdj_ep3.seed;
 
+import com.example.ewdj_ep3.domain.competition.Competition;
 import com.example.ewdj_ep3.domain.match.Match;
 import com.example.ewdj_ep3.domain.prediction.Prediction;
 import com.example.ewdj_ep3.domain.prediction.PredictionId;
@@ -32,16 +33,18 @@ public class DataSeeder implements CommandLineRunner {
     private final PasswordEncoder passwordEncoder;
     private final RoleRepository roleRepository;
     private final PredictionRepository predictionRepository;
+    private final CompetitionRepository competitionRepository;
     private List<Team> teams = new ArrayList<>();
 
     public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository, UserRepository userRepository, PasswordEncoder passwordEncoder,
-                      RoleRepository roleRepository, PredictionRepository predictionRepository) {
+                      RoleRepository roleRepository, PredictionRepository predictionRepository, CompetitionRepository competitionRepository) {
         this.teamRepository = teamRepository;
         this.matchRepository = matchRepository;
         this.userRepository = userRepository;
         this. passwordEncoder = passwordEncoder;
         this.roleRepository = roleRepository;
         this.predictionRepository = predictionRepository;
+        this.competitionRepository = competitionRepository;
     }
 
     @Override
@@ -55,6 +58,9 @@ public class DataSeeder implements CommandLineRunner {
 
             seedUsers(Paths.get("src/main/resources/seed-data/user-data.csv"));
             log.info("✅ Success: Seeded Users");
+
+            seedCompetitions();
+            log.info("✅ Success: Seeded Competitions");
 
             seedTeams(Paths.get("src/main/resources/seed-data/team-data.csv"));
             log.info("✅ Success: Seeded teams");
@@ -236,5 +242,32 @@ public class DataSeeder implements CommandLineRunner {
         }
 
         predictionRepository.saveAll(predictions);
+    }
+
+    private void seedCompetitions() {
+
+        if (competitionRepository.count() > 0) return;
+
+        User owner = userRepository.findAll().stream()
+                .filter(user -> user.getEmail().equals("hendrik@gmail.com"))
+                .findFirst()
+                .orElseThrow();
+
+        Set<User> competitionUsers = userRepository.findAll().stream()
+                .filter(user -> user.getRoles().stream()
+                        .anyMatch(role -> role.getName().equals("USER")))
+                .filter(user -> user.getRoles().stream()
+                        .noneMatch(role -> role.getName().equals("ADMIN")))
+                .limit(4)
+                .collect(Collectors.toSet());
+
+        Competition competition = Competition.builder()
+                .owner(owner)
+                .name("World Cup Legends")
+                .code("WC2026")
+                .users(competitionUsers)
+                .build();
+
+        competitionRepository.save(competition);
     }
 }

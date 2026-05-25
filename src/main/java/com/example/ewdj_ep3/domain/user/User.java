@@ -1,5 +1,6 @@
 package com.example.ewdj_ep3.domain.user;
 
+import com.example.ewdj_ep3.domain.competition.Competition;
 import com.example.ewdj_ep3.domain.role.Role;
 import jakarta.persistence.*;
 import lombok.*;
@@ -36,4 +37,12 @@ public class User {
     )
     @Builder.Default
     private Set<Role> roles = new HashSet<>();
+
+    @OneToMany(mappedBy = "owner")
+    @Builder.Default
+    private Set<Competition> ownedCompetitions = new HashSet<>();
+
+    @ManyToMany(mappedBy = "users")
+    @Builder.Default
+    private Set<Competition> competitions = new HashSet<>();
 }

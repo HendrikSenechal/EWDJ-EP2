@@ -13,6 +13,7 @@ import java.util.Set;
 @Table(name = "Users")
 @Builder
 @Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PUBLIC)
 @AllArgsConstructor
 @ToString(exclude = { "id", "roles" })

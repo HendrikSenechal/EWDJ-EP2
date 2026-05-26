@@ -30,15 +30,8 @@ public class HelloController {
         model.addAttribute("teamName", teamService.teamName());
 
         log.info(teamService.teamName());
-
-
         log.info("post hello, Name submitted: {}", inputDTO!=null? inputDTO.name(): "null");
 
-        log.info("An INFO Message");
-        log.warn("A WARN Message");
-        log.error("An ERROR Message");
-
-        log.debug("inside hello post method");
         return "helloResult";
     }
 }

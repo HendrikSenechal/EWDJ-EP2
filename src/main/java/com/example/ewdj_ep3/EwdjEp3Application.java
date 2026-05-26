@@ -14,6 +14,6 @@ public class EwdjEp3Application implements WebMvcConfigurer {
 
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
-        registry.addRedirectViewController("/", "/hello");
+        registry.addRedirectViewController("/", "/users/login");
     }
 }

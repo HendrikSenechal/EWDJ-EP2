@@ -9,6 +9,7 @@ import com.example.ewdj_ep3.domain.team.Team;
 import com.example.ewdj_ep3.domain.user.User;
 import com.example.ewdj_ep3.enums.Outcome;
 import com.example.ewdj_ep3.persistence.*;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -25,6 +26,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @Slf4j
+@RequiredArgsConstructor
 @Component
 public class DataSeeder implements CommandLineRunner {
     private final TeamRepository teamRepository;
@@ -35,17 +37,6 @@ public class DataSeeder implements CommandLineRunner {
     private final PredictionRepository predictionRepository;
     private final CompetitionRepository competitionRepository;
     private List<Team> teams = new ArrayList<>();
-
-    public DataSeeder(TeamRepository teamRepository, MatchRepository matchRepository, UserRepository userRepository, PasswordEncoder passwordEncoder,
-                      RoleRepository roleRepository, PredictionRepository predictionRepository, CompetitionRepository competitionRepository) {
-        this.teamRepository = teamRepository;
-        this.matchRepository = matchRepository;
-        this.userRepository = userRepository;
-        this. passwordEncoder = passwordEncoder;
-        this.roleRepository = roleRepository;
-        this.predictionRepository = predictionRepository;
-        this.competitionRepository = competitionRepository;
-    }
 
     @Override
     public void run(String... args) {
@@ -69,7 +60,7 @@ public class DataSeeder implements CommandLineRunner {
             log.info("✅ Success: Seeded Matches");
 
             seedPredictions();
-            log.info("✅ Success: Seeded Matches");
+            log.info("✅ Success: Seeded Matches\n");
 
             log.info("✅ Success: DataSeeder fully succeeded \n");
         } catch (Exception exception) {

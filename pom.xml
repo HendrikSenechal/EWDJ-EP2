@@ -84,6 +84,11 @@
             <artifactId>bcprov-jdk18on</artifactId>
             <version>1.84</version>
         </dependency>
+        <!-- Jakarta validation -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-validation</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

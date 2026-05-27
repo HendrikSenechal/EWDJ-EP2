@@ -14,19 +14,19 @@
 <body>
 
 <nav>
-    <a th:href="@{/users/login}">Login</a>
-    <a th:href="@{/users/registration}">Register</a>
+    <a th:text="#{navbar.login}" th:href="@{/users/login}"></a>
+    <a th:text="#{navbar.register}" th:href="@{/users/registration}"></a>
 </nav>
 
 <div class="login-container">
 
-    <h2>Login</h2>
+    <h2 th:text="#{login.title}" ></h2>
 
     <form th:action="@{/users/login}" th:object="${inputLoginDTO}" method="post">
 
 
         <div class="form-group">
-            <label for="email">Email:</label>
+            <label th:text="#{login.email}" for="email"></label>
             <input type="email" id="email" th:field="*{email}" />
             <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="error"></span>
         </div>
@@ -34,12 +34,12 @@
         <br/>
 
         <div>
-            <label for="password">Password:</label>
+            <label th:text="#{login.password}" for="password"></label>
             <input type="password" id="password" th:field="*{password}" />
             <span th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="error"></span>
         </div>
 
-        <button type="submit">Login</button>
+        <button th:text="#{login.confirm}" type="submit"></button>
     </form>
     <span th:if="${errCode}" th:text="${errMsg}" class="error"></span>
     <span th:if="${errCode}" th:text="${email}" class="error"></span>

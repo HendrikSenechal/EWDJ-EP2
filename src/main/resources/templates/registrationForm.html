@@ -15,18 +15,18 @@
 <body>
 
 <nav>
-    <a th:href="@{/users/login}">Login</a>
-    <a th:href="@{/users/registration}">Register</a>
+    <a th:text="#{navbar.login}" th:href="@{/users/login}"></a>
+    <a th:text="#{navbar.register}" th:href="@{/users/registration}"></a>
 </nav>
 
 <div class="container">
 
-    <h2>Create User</h2>
+    <h2 th:text="#{register.title}"></h2>
 
     <form th:action="@{/users/registration}" th:object="${inputRegistrationDTO}" method="post">
 
         <div>
-            <label for="name">First Name:</label>
+            <label th:text="#{register.name}" for="name"></label>
             <input type="text" id="name" th:field="*{name}" />
             <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="error">
         </span>
@@ -35,7 +35,7 @@
         <br/>
 
         <div>
-            <label for="lastname">Last Name:</label>
+            <label th:text="#{register.lastname}" for="lastname"></label>
             <input type="text" id="lastname" th:field="*{lastname}" />
             <span th:if="${#fields.hasErrors('lastname')}" th:errors="*{lastname}" class="error">
         </span>
@@ -44,7 +44,7 @@
         <br/>
 
         <div>
-            <label for="email">Email:</label>
+            <label th:text="#{register.email}" for="email"></label>
             <input type="email" id="email" th:field="*{email}" />
             <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="error">
         </span>
@@ -53,21 +53,21 @@
         <br/>
 
         <div>
-            <label for="password">Password:</label>
+            <label th:text="#{register.password}" for="password"></label>
             <input type="password" id="password" th:field="*{password}" />
             <span th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="error">
         </span>
         </div>
 
         <div>
-            <label for="confirmPassword">Confirm password:</label>
+            <label th:text="#{register.passwordConfirmation}" for="confirmPassword"></label>
             <input type="password" id="confirmPassword" th:field="*{confirmPassword}" />
             <span th:if="${#fields.hasErrors('confirmPassword')}" th:errors="*{confirmPassword}" class="error"></span>
         </div>
 
         <br/>
 
-        <button type="submit">Save</button>
+        <button th:text="#{register.save}" type="submit"></button>
 
     </form>
 </div>

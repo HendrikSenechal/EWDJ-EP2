@@ -1,6 +1,5 @@
-package com.example.spring_boot_exceptions.config;
+package com.example.ewdj_ep3.config;
 
-import com.example.spring_boot_exceptions.interceptor.MeasurementInterceptor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

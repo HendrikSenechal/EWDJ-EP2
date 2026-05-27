@@ -1,6 +1,5 @@
 package com.example.ewdj_ep3.domain.team;
 
-import com.example.ewdj_ep3.domain.hello.HelloService;
 import com.example.ewdj_ep3.dto.request.InputDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -25,7 +24,7 @@ public class TeamController {
 
         model.addAttribute("teamName", teamName);
 
-        return "helloResult";
+        return "redirect:/users/login";
     }
 
 }

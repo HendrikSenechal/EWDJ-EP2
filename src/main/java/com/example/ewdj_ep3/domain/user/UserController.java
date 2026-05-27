@@ -1,7 +1,7 @@
 package com.example.ewdj_ep3.domain.user;
 
 import com.example.ewdj_ep3.domain.role.RoleService;
-import com.example.ewdj_ep3.dto.request.UserInputDTO;
+import com.example.ewdj_ep3.dto.request.InputRegistrationDTO;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,9 +21,9 @@ public class UserController {
     private final UserService userService;
     private final RoleService roleService;
 
-    @GetMapping("/register")
+    @GetMapping("/registration")
     public String showRegisterForm(Model model) {
-        model.addAttribute("userInputDTO", new UserInputDTO());
+        model.addAttribute("inputRegistrationDTO", new InputRegistrationDTO());
         model.addAttribute("allRoles", roleService.findAll());
         return "registrationForm";
     }
@@ -33,12 +33,12 @@ public class UserController {
         return "loginForm";
     }
 
-    @PostMapping("/save")
+    @PostMapping("/registration")
     //Definieer de naam van in ModelAttribute indien het niet gelijk is aan de naam van zijn klasse
-    public String saveUser(@ModelAttribute("userInputDTO") @Valid UserInputDTO userInputDTO, BindingResult result) {
+    public String saveUser(@ModelAttribute("inputRegistrationDTO") @Valid InputRegistrationDTO userInputDTO, BindingResult result) {
         if (result.hasErrors())
             return "registrationForm";
         userService.saveUser(userInputDTO);
-        return "redirect:/hello";
+        return "redirect:/users/login";
     }
 }

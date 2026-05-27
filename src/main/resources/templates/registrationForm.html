@@ -16,14 +16,14 @@
 
 <nav>
     <a th:href="@{/users/login}">Login</a>
-    <a th:href="@{/users/register}">Register</a>
+    <a th:href="@{/users/registration}">Register</a>
 </nav>
 
 <div class="container">
 
     <h2>Create User</h2>
 
-    <form th:action="@{/users/save}" th:object="${userInputDTO}" method="post">
+    <form th:action="@{/users/registration}" th:object="${inputRegistrationDTO}" method="post">
 
         <div>
             <label for="name">First Name:</label>

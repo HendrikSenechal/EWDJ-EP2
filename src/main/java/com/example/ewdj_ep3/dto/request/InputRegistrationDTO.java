@@ -7,7 +7,7 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 
 @ValidPasswords
-public record UserInputDTO(
+public record InputRegistrationDTO(
         //@Builder.Default ensures default values when not set by builder
         @NotBlank(message = "firstname is required")
         @Pattern(
@@ -38,7 +38,7 @@ public record UserInputDTO(
         String email
 ) {
 
-    public UserInputDTO() {
+    public InputRegistrationDTO() {
         this(null, null, null, null, null);
     }
 }

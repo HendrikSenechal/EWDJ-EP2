@@ -1,7 +1,7 @@
 package com.example.ewdj_ep3.domain.user;
 
 import com.example.ewdj_ep3.domain.role.Role;
-import com.example.ewdj_ep3.dto.request.UserInputDTO;
+import com.example.ewdj_ep3.dto.request.InputRegistrationDTO;
 import com.example.ewdj_ep3.mapper.UserMapper;
 import com.example.ewdj_ep3.persistence.RoleRepository;
 import com.example.ewdj_ep3.persistence.UserRepository;
@@ -18,7 +18,7 @@ public class UserService {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
 
-    public String saveUser(UserInputDTO userInputDTO) {
+    public void saveUser(InputRegistrationDTO userInputDTO) {
         try {
             User newUser = UserMapper.toEntity(userInputDTO);
 
@@ -27,9 +27,8 @@ public class UserService {
 
             userRepository.save(newUser);
             log.info("Registered new user");
-            return "Success";
         } catch (Exception e) {
-            return "Failed to save";
+            log.info("Failed to register new user");
         }
     }
 

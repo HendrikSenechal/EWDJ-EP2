@@ -8,6 +8,7 @@ import com.example.ewdj_ep3.persistence.RoleRepository;
 import com.example.ewdj_ep3.persistence.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
@@ -33,8 +34,10 @@ public class UserService {
         }
     }
 
-    public void loginUser(InputLoginDTO inputLoginDTO) {
+    //TODO exception handling
+    public User findByEmail(String email) {
 
+        return userRepository.findByEmail(email)
+                .orElseThrow(() -> new UsernameNotFoundException("User not found: " + email));
     }
-
 }

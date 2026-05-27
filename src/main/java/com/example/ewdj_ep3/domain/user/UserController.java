@@ -27,6 +27,7 @@ public class UserController {
         return "loginForm";
     }
 
+    /*
     @PostMapping("/login")
     //Definieer de naam van in ModelAttribute indien het niet gelijk is aan de naam van zijn klasse
     public String loginUser(@ModelAttribute("inputLoginDTO") @Valid InputLoginDTO inputLoginDTO, BindingResult result) {
@@ -35,6 +36,7 @@ public class UserController {
         //userService login method
         throw new InvalidCredentialsException("test@mail.be", "AUTH_401", "Couldnt find users with this email:");
     }
+    */
 
     @GetMapping("/registration")
     public String showRegisterForm(Model model) {

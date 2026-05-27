@@ -55,13 +55,14 @@ public class MatchControllerTest {
                 "🇿🇦",
                 LocalDateTime.of(2026, 6, 11, 20, 0),
                 "Mexico City Stadium",
+                56498,
                 "A",
                 0,
                 0,
                 Outcome.SCHEDULED
         );
 
-        when(matchService.findById(1)).thenReturn(expectedMatch);
+        when(matchService.findById(1L)).thenReturn(expectedMatch);
 
         mockMvc.perform(get("/matches/1"))
                 .andExpect(status().isOk())
@@ -69,20 +70,20 @@ public class MatchControllerTest {
                 .andExpect(model().attributeExists("match"))
                 .andExpect(model().attribute("match", expectedMatch));
 
-        verify(matchService).findById(1);
+        verify(matchService).findById(1L);
     }
 
     @Test
     public void testGetNoMatchFound() throws Exception {
 
-        when(matchService.findById(1))
-                .thenThrow(new MatchNotFoundException(1));
+        when(matchService.findById(1L))
+                .thenThrow(new MatchNotFoundException(1L));
 
         mockMvc.perform(get("/matches/1"))
                 .andExpect(status().is3xxRedirection())
                 .andExpect(redirectedUrl("/matches/list"));
 
-        verify(matchService).findById(1);
+        verify(matchService).findById(1L);
     }
 
     @Test

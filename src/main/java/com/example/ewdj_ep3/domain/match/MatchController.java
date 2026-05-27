@@ -17,12 +17,12 @@ public class MatchController {
 
     @GetMapping("/list")
     public String listStudents(Model model) {
-        model.addAttribute("matchesList", matchService.findAllMatches());
+        model.addAttribute("matchesList", matchService.findAll());
         return "matches/matchesList";
     }
 
     @GetMapping("/{id}")
-    public String showMatch(@PathVariable("id") Integer matchId, Model model) {
+    public String showMatch(@PathVariable("id") Long matchId, Model model) {
         model.addAttribute("match", matchService.findById(matchId));
         return "matches/matchDetail";
     }

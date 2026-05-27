@@ -9,19 +9,8 @@
 
 <body>
 
-<nav>
-    <a th:text="#{navbar.login}"
-       th:href="@{/users/login}">
-    </a>
+<div th:replace="fragments/header :: header"></div>
 
-    <a th:text="#{navbar.register}"
-       th:href="@{/users/registration}">
-    </a>
-
-    <a th:text="#{navbar.matches}"
-       th:href="@{/matches/list}">
-    </a>
-</nav>
 
 <h1>Match Detail</h1>
 
@@ -55,6 +44,12 @@
         <th>Stadium</th>
 
         <td th:text="*{stadium}"></td>
+    </tr>
+
+    <tr>
+        <th>Capacity</th>
+
+        <td th:text="*{stadiumCapacity}"></td>
     </tr>
 
     <tr>

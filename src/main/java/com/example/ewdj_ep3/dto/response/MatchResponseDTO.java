@@ -20,6 +20,8 @@ public record MatchResponseDTO(
 
         String stadium,
 
+        int stadiumCapacity,
+
         String worldCupGroup,
 
         int scoreHomeTeam,

@@ -16,16 +16,42 @@ import java.util.List;
 public class MatchService {
     private final MatchRepository matchRepository;
 
-    public List<MatchResponseDTO> findAllMatches(){
+    public List<MatchResponseDTO> findAll() {
+
+        log.info("Fetching all matches");
+
         return matchRepository.findAll()
                 .stream()
-                .map(s -> MatchMapper.toDTO(s))
+                .map(MatchMapper::toDTO)
                 .toList();
     }
 
-    public MatchResponseDTO findById(Integer matchId) throws MatchNotFoundException {
-        Match match = matchRepository.findById(Long.valueOf(matchId))
+    public MatchResponseDTO findById(Long matchId) throws MatchNotFoundException {
+
+        log.info("Fetching match with id {}", matchId);
+
+        Match match = matchRepository.findById(matchId)
                 .orElseThrow(() -> new MatchNotFoundException(matchId));
+
+        return MatchMapper.toDTO(match);
+    }
+
+    public MatchResponseDTO save(Match match) {
+        Match savedMatch = matchRepository.save(match);
+
+        log.info("Saved match with id {}", savedMatch.getId());
+
+        return MatchMapper.toDTO(savedMatch);
+    }
+
+    public MatchResponseDTO deleteById(Long matchId) throws MatchNotFoundException {
+        Match match = matchRepository.findById(matchId)
+                .orElseThrow(() -> new MatchNotFoundException(matchId));
+
+        matchRepository.delete(match);
+
+        log.info("Deleted match with id {}", matchId);
+
         return MatchMapper.toDTO(match);
     }
 }

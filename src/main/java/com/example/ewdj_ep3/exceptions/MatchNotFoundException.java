@@ -6,5 +6,5 @@ import lombok.Getter;
 @AllArgsConstructor
 @Getter
 public class MatchNotFoundException extends RuntimeException {
-    private final Integer id;
+    private final Long id;
 }

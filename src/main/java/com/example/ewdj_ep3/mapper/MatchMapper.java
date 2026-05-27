@@ -23,6 +23,8 @@ public class MatchMapper {
 
                 match.getStadium(),
 
+                match.getStadiumCapacity(),
+
                 match.getWorldCupGroup(),
 
                 match.getScoreHomeTeam(),

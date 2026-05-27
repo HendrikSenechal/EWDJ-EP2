@@ -105,7 +105,7 @@ public class InitDataConfig implements CommandLineRunner {
             while ((line = br.readLine()) != null) {
                 String[] fields = line.split(",", -1);
 
-                if (fields.length != 5) continue;
+                if (fields.length != 6) continue;
 
                 Team homeTeam = findTeamByName(teams, fields[0].trim());
                 Team awayTeam = findTeamByName(teams, fields[1].trim());
@@ -116,7 +116,8 @@ public class InitDataConfig implements CommandLineRunner {
                                 .awayTeam(awayTeam)
                                 .worldCupGroup(fields[2].trim())
                                 .stadium(fields[3].trim())
-                                .matchDateTime(LocalDateTime.parse(fields[4].trim()))
+                                .stadiumCapacity(Integer.parseInt(fields[4].trim()))
+                                .matchDateTime(LocalDateTime.parse(fields[5].trim()))
                                 .scoreHomeTeam(0)
                                 .scoreAwayTeam(0)
                                 .outcome(Outcome.SCHEDULED)

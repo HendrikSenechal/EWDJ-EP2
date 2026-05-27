@@ -32,6 +32,8 @@ public class Match {
 
     private String stadium;
 
+    private int stadiumCapacity;
+
     private String worldCupGroup;
 
     @Setter

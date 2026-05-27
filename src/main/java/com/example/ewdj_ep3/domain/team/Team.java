@@ -20,7 +20,6 @@ import java.util.Set;
 public class Team {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Getter(AccessLevel.NONE)
     private Long id;
 
     private String name;

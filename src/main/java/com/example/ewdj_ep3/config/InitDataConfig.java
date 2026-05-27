@@ -1,4 +1,4 @@
-package com.example.ewdj_ep3.seed;
+package com.example.ewdj_ep3.config;
 
 import com.example.ewdj_ep3.domain.competition.Competition;
 import com.example.ewdj_ep3.domain.match.Match;
@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 @Slf4j
 @RequiredArgsConstructor
 @Component
-public class DataSeeder implements CommandLineRunner {
+public class InitDataConfig implements CommandLineRunner {
     private final TeamRepository teamRepository;
     private final MatchRepository matchRepository;
     private final UserRepository userRepository;

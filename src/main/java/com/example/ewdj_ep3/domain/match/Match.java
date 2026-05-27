@@ -18,6 +18,7 @@ import java.time.LocalDateTime;
 public class Match {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Getter(AccessLevel.NONE)
     private Long id;
 
     @ManyToOne(fetch = FetchType.EAGER)

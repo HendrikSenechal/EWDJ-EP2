@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+
+    <style>
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
 
@@ -34,6 +41,8 @@
 
         <button type="submit">Login</button>
     </form>
+    <span th:if="${errCode}" th:text="${errMsg}" class="error"></span>
+    <span th:if="${errCode}" th:text="${email}" class="error"></span>
 </div>
 
 </body>

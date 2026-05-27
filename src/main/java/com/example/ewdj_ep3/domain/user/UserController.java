@@ -10,10 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.ModelAndView;
 
 @Slf4j
 @Controller
@@ -35,7 +33,7 @@ public class UserController {
         if (result.hasErrors())
             return "loginForm";
         //userService login method
-        throw new InvalidCredentialsException("test@mail.be", "Code get fucked", "Kon gebruiker met deze email niet vinden");
+        throw new InvalidCredentialsException("test@mail.be", "AUTH_401", "Couldnt find users with this email:");
     }
 
     @GetMapping("/registration")
@@ -53,5 +51,19 @@ public class UserController {
             return "registrationForm";
         userService.saveUser(inputRegistrationDTO);
         return "redirect:/users/login";
+    }
+
+    @ExceptionHandler(InvalidCredentialsException.class)
+    public ModelAndView handleInvalidCredentialsException(
+            InvalidCredentialsException ex) {
+
+        ModelAndView model = new ModelAndView("loginForm");
+
+        model.addObject("inputLoginDTO", new InputLoginDTO());
+        model.addObject("errCode", ex.getErrCode());
+        model.addObject("errMsg", ex.getErrMsg());
+        model.addObject("email", ex.getEmail());
+
+        return model;
     }
 }

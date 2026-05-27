@@ -21,6 +21,13 @@ public class MatchController {
         return "matches/matchesList";
     }
 
+    @GetMapping("/exception")
+    public String throwsException(Model model) {
+        matchService.throwsException();
+        model.addAttribute("matchesList", matchService.findAll());
+        return "matches/matchesList";
+    }
+
     @GetMapping("/{id}")
     public String showMatch(@PathVariable("id") Long matchId, Model model) {
         model.addAttribute("match", matchService.findById(matchId));

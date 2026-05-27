@@ -16790,3 +16790,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table 'ewdj.user_roles' doesn't exi
 2026-05-27T12:25:01.613+02:00  WARN 262108 --- [EWDJ_EP3] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.ewdj_ep3.exceptions.InvalidCredentialsException]
 2026-05-27T12:25:05.309+02:00  WARN 262108 --- [EWDJ_EP3] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.ewdj_ep3.exceptions.InvalidCredentialsException]
 2026-05-27T12:25:17.094+02:00  WARN 262108 --- [EWDJ_EP3] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.ewdj_ep3.exceptions.InvalidCredentialsException]
+2026-05-27T13:02:18.300+02:00  INFO 262108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-27T13:02:18.315+02:00  INFO 262108 --- [EWDJ_EP3] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-05-27T13:02:18.319+02:00  INFO 262108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-27T13:02:18.949+02:00  INFO 262108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-27T13:02:18.952+02:00  INFO 262108 --- [EWDJ_EP3] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

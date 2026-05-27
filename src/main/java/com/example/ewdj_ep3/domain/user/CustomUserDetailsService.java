@@ -1,4 +1,4 @@
-package com.example.ewdj_ep3.security;
+package com.example.ewdj_ep3.domain.user;
 
 import com.example.ewdj_ep3.domain.role.Role;
 import com.example.ewdj_ep3.domain.user.User;

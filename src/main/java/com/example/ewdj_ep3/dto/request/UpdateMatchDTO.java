@@ -6,34 +6,34 @@ import jakarta.validation.constraints.NotNull;
 
 public record UpdateMatchDTO(
 
-        @NotNull(message = "homeTeamId is required")
+        @NotNull(message = "{match.homeTeamId.notnull}")
         Long homeTeamId,
 
-        @NotNull(message = "awayTeamId is required")
+        @NotNull(message = "{match.awayTeamId.notnull}")
         Long awayTeamId,
 
-        @NotNull(message = "matchDateTime is required")
+        @NotNull(message = "{match.matchDateTime.notnull}")
         java.time.LocalDateTime matchDateTime,
 
-        @NotNull(message = "stadium is required")
+        @NotNull(message = "{match.stadium.notnull}")
         String stadium,
 
-        @NotNull(message = "stadiumCapacity is required")
-        @Min(1)
+        @NotNull(message = "{match.stadiumCapacity.notnull}")
+        @Min(value = 1, message = "{match.stadiumCapacity.min}")
         Integer stadiumCapacity,
 
-        @NotNull(message = "worldCupGroup is required")
+        @NotNull(message = "{match.worldCupGroup.notnull}")
         String worldCupGroup,
 
-        @NotNull(message = "scoreHomeTeam is required")
-        @Min(0)
+        @NotNull(message = "{match.scoreHomeTeam.notnull}")
+        @Min(value = 0, message = "{match.scoreHomeTeam.min}")
         Integer scoreHomeTeam,
 
-        @NotNull(message = "scoreAwayTeam is required")
-        @Min(0)
+        @NotNull(message = "{match.scoreAwayTeam.notnull}")
+        @Min(value = 0, message = "{match.scoreAwayTeam.min}")
         Integer scoreAwayTeam,
 
-        @NotNull(message = "outcome is required")
+        @NotNull(message = "{match.outcome.notnull}")
         Outcome outcome
 ) {
     public UpdateMatchDTO() {

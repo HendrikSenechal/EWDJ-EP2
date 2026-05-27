@@ -2,6 +2,10 @@ package com.example.ewdj_ep3.domain.match;
 
 import com.example.ewdj_ep3.domain.team.Team;
 import com.example.ewdj_ep3.enums.Outcome;
+import com.example.ewdj_ep3.utils.LocalDateTimeDeserializer;
+import com.example.ewdj_ep3.utils.LocalDateTimeSerializer;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
@@ -29,6 +33,8 @@ public class Match {
     @JoinColumn(name = "AWAY_TEAM_ID")
     private Team awayTeam;
 
+    @JsonSerialize(using = LocalDateTimeSerializer.class)
+    @JsonDeserialize(using = LocalDateTimeDeserializer.class)
     private LocalDateTime matchDateTime;
 
     private String stadium;

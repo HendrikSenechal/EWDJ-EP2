@@ -8,37 +8,37 @@ import jakarta.validation.constraints.Size;
 
 @ValidPasswords
 public record InputRegistrationDTO(
-        //@Builder.Default ensures default values when not set by builder
-        @NotBlank(message = "firstname is required")
+
+        @NotBlank(message = "{register.firstname.notblank}")
         @Pattern(
                 regexp = "^[a-zA-Z]+$",
-                message = "firstname may only contain letters"
+                message = "{register.firstname.pattern}"
         )
-        @Size(min = 2, max = 30)
+        @Size(min = 2, max = 30, message = "{register.firstname.size}")
         String name,
 
-        @NotBlank(message = "lastname is required")
+        @NotBlank(message = "{register.lastname.notblank}")
         @Pattern(
                 regexp = "^[a-zA-Z]+$",
-                message = "lastname may only contain letters"
+                message = "{register.lastname.pattern}"
         )
-        @Size(min = 2, max = 30)
+        @Size(min = 2, max = 30, message = "{register.lastname.size}")
         String lastname,
 
-        @NotBlank
-        @Size(min = 4, max = 20)
+        @NotBlank(message = "{register.password.notblank}")
+        @Size(min = 4, max = 20, message = "{register.password.size}")
         String password,
 
-        @NotBlank
-        @Size(min = 4, max = 20)
+        @NotBlank(message = "{register.confirmPassword.notblank}")
+        @Size(min = 4, max = 20, message = "{register.confirmPassword.size}")
         String confirmPassword,
 
-        @NotBlank
-        @Email
+        @NotBlank(message = "{register.email.notblank}")
+        @Email(message = "{register.email.invalid}")
         String email
 ) {
 
-    public InputRegistrationDTO() {
-        this(null, null, null, null, null);
-    }
+        public InputRegistrationDTO() {
+                this(null, null, null, null, null);
+        }
 }

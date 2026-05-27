@@ -10,10 +10,12 @@
 
         <class>com.example.ewdj_ep3.domain.team.Team</class>
 
+        //TODO WACHTWOORD EN GEBRUIKER INVULLEN
+
         <properties>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ewdj?serverTimezone=UTC"/>
-            <property name="jakarta.persistence.jdbc.user" value="root"/>
-            <property name="jakarta.persistence.jdbc.password" value="12.EWok."/>
+            <property name="jakarta.persistence.jdbc.user" value="USER"/>
+            <property name="jakarta.persistence.jdbc.password" value="WACHTWOORD"/>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>
         </properties>

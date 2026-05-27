@@ -13,6 +13,25 @@
         </a>
     </nav>
 
+    <form method="get">
+
+        <select name="lang"
+                onchange="this.form.submit()">
+
+            <option value="en"
+                    th:selected="${#locale.language == 'en'}">
+                English
+            </option>
+
+            <option value="nl"
+                    th:selected="${#locale.language == 'nl'}">
+                Nederlands
+            </option>
+
+        </select>
+
+    </form>
+
 </header>
 
 </html>

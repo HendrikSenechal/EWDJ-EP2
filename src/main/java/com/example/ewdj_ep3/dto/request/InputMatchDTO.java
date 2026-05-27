@@ -10,26 +10,26 @@ import java.time.LocalDateTime;
 
 public record InputMatchDTO(
 
-        @NotNull(message = "homeTeamId is required")
+        @NotNull(message = "{match.homeTeamId.notnull}")
         Long homeTeamId,
 
-        @NotNull(message = "awayTeamId is required")
+        @NotNull(message = "{match.awayTeamId.notnull}")
         Long awayTeamId,
 
-        @NotNull(message = "matchDateTime is required")
-        @FutureOrPresent(message = "matchDateTime cannot be in the past")
+        @NotNull(message = "{match.matchDateTime.notnull}")
+        @FutureOrPresent(message = "{match.matchDateTime.future}")
         LocalDateTime matchDateTime,
 
-        @NotBlank(message = "stadium is required")
-        @Size(min = 2, max = 80)
+        @NotBlank(message = "{match.stadium.notblank}")
+        @Size(min = 2, max = 80, message = "{match.stadium.size}")
         String stadium,
 
-        @NotNull(message = "stadiumCapacity is required")
-        @Min(value = 1)
+        @NotNull(message = "{match.stadiumCapacity.notnull}")
+        @Min(value = 1, message = "{match.stadiumCapacity.min}")
         Integer stadiumCapacity,
 
-        @NotBlank(message = "worldCupGroup is required")
-        @Size(min = 1, max = 10)
+        @NotBlank(message = "{match.worldCupGroup.notblank}")
+        @Size(min = 1, max = 10, message = "{match.worldCupGroup.size}")
         String worldCupGroup
 ) {
     public InputMatchDTO() {

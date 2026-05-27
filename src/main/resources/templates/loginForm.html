@@ -16,25 +16,6 @@
 <!-- Header Fragment -->
 <div th:replace="fragments/guestHeader :: header"></div>
 
-<form method="get">
-
-    <select name="lang"
-            onchange="this.form.submit()">
-
-        <option value="en"
-                th:selected="${#locale.language == 'en'}">
-            English
-        </option>
-
-        <option value="nl"
-                th:selected="${#locale.language == 'nl'}">
-            Nederlands
-        </option>
-
-    </select>
-
-</form>
-
 <div class="login-container">
 
     <h2 th:text="#{login.title}" ></h2>

@@ -1,6 +1,7 @@
 package com.example.ewdj_ep3.domain.user;
 
 import com.example.ewdj_ep3.domain.role.Role;
+import com.example.ewdj_ep3.dto.request.InputLoginDTO;
 import com.example.ewdj_ep3.dto.request.InputRegistrationDTO;
 import com.example.ewdj_ep3.mapper.UserMapper;
 import com.example.ewdj_ep3.persistence.RoleRepository;
@@ -30,6 +31,10 @@ public class UserService {
         } catch (Exception e) {
             log.info("Failed to register new user");
         }
+    }
+
+    public void loginUser(InputLoginDTO inputLoginDTO) {
+
     }
 
 }

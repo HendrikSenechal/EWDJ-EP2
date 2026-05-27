@@ -1,7 +1,9 @@
 package com.example.ewdj_ep3.domain.user;
 
 import com.example.ewdj_ep3.domain.role.RoleService;
+import com.example.ewdj_ep3.dto.request.InputLoginDTO;
 import com.example.ewdj_ep3.dto.request.InputRegistrationDTO;
+import com.example.ewdj_ep3.exceptions.InvalidCredentialsException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -21,6 +23,21 @@ public class UserController {
     private final UserService userService;
     private final RoleService roleService;
 
+    @GetMapping("/login")
+    public String showLoginForm(Model model) {
+        model.addAttribute("inputLoginDTO", new InputLoginDTO());
+        return "loginForm";
+    }
+
+    @PostMapping("/login")
+    //Definieer de naam van in ModelAttribute indien het niet gelijk is aan de naam van zijn klasse
+    public String loginUser(@ModelAttribute("inputLoginDTO") @Valid InputLoginDTO inputLoginDTO, BindingResult result) {
+        if (result.hasErrors())
+            return "loginForm";
+        //userService login method
+        throw new InvalidCredentialsException("test@mail.be", "Code get fucked", "Kon gebruiker met deze email niet vinden");
+    }
+
     @GetMapping("/registration")
     public String showRegisterForm(Model model) {
         model.addAttribute("inputRegistrationDTO", new InputRegistrationDTO());
@@ -28,17 +45,13 @@ public class UserController {
         return "registrationForm";
     }
 
-    @GetMapping("/login")
-    public String showLoginForm(Model model) {
-        return "loginForm";
-    }
 
     @PostMapping("/registration")
     //Definieer de naam van in ModelAttribute indien het niet gelijk is aan de naam van zijn klasse
-    public String saveUser(@ModelAttribute("inputRegistrationDTO") @Valid InputRegistrationDTO userInputDTO, BindingResult result) {
+    public String saveUser(@ModelAttribute("inputRegistrationDTO") @Valid InputRegistrationDTO inputRegistrationDTO, BindingResult result) {
         if (result.hasErrors())
             return "registrationForm";
-        userService.saveUser(userInputDTO);
+        userService.saveUser(inputRegistrationDTO);
         return "redirect:/users/login";
     }
 }

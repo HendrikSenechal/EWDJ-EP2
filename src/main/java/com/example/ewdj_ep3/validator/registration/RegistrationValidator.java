@@ -28,7 +28,7 @@ public class RegistrationValidator implements Validator {
         // checken of wachtwoorden gelijk zijn. Indien niet error teruggeven
         if (!(dto.password()).equals(dto.confirmPassword())) {
             errors.rejectValue("password",
-                    "matchingPassword.registration.password",
+                    "validator.registration.valid",
                     "password does not match the confirm password.");
         }
     }

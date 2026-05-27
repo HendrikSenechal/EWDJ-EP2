@@ -14,7 +14,8 @@ import java.time.LocalDateTime;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-@ToString(exclude = { "user", "match" })
+@EqualsAndHashCode(exclude = { "id" })
+@ToString(exclude = { "id" })
 public class Prediction {
 
     @EmbeddedId

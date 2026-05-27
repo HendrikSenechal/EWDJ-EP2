@@ -16,7 +16,8 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-@ToString(exclude = { "id", "roles" })
+@EqualsAndHashCode(exclude = { "id", "roles", "ownedCompetitions", "competitions" })
+@ToString(exclude = { "id", "roles", "ownedCompetitions", "competitions" })
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

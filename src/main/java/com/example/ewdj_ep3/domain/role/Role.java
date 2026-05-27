@@ -14,6 +14,7 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
+@EqualsAndHashCode(exclude = { "id", "users" })
 @ToString(exclude = { "id", "users" })
 public class Role {
 

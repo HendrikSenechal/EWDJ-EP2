@@ -14,7 +14,8 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
-@ToString(exclude = { "id", "owner" })
+@EqualsAndHashCode(exclude = { "id" })
+@ToString(exclude = { "id" })
 public class Competition {
 
     @Id

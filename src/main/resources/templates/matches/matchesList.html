@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Matches</title>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Date</th>
+        <th>Match</th>
+        <th>Outcome</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr th:each="match : ${matchesList}">
+
+        <td th:with="df=#{date.format.pattern}"
+            th:text="${#temporals.format(match.matchDateTime, df)}">
+        </td>
+
+        <td>
+            <a th:href="@{/matches/{id}(id=${match.id})}"
+               th:text="${match.homeTeamName
+               + ' VS ' +
+               match.awayTeamName}">
+            </a>
+        </td>
+
+        <td th:text="${match.outcome}"></td>
+
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -1,6 +1,7 @@
 package com.example.ewdj_ep3.domain.team;
 
 import com.example.ewdj_ep3.domain.match.Match;
+import com.example.ewdj_ep3.utils.FlagUtil;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
@@ -40,4 +41,8 @@ public class Team {
     @JsonIgnore
     @Builder.Default
     private Set<Match> awayMatches = new HashSet<>();
+
+    public String getFlagEmoji() {
+        return FlagUtil.toEmoji(flag);
+    }
 }

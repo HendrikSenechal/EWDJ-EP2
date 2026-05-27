@@ -14,10 +14,8 @@
 </head>
 <body>
 
-<nav>
-    <a th:text="#{navbar.login}" th:href="@{/users/login}"></a>
-    <a th:text="#{navbar.register}" th:href="@{/users/registration}"></a>
-</nav>
+<!-- Header Fragment -->
+<div th:replace="fragments/header :: header"></div>
 
 <form method="get">
 
@@ -90,6 +88,9 @@
 
     </form>
 </div>
+
+<!-- Footer Fragment -->
+<div th:replace="fragments/footer :: footer"></div>
 
 </body>
 </html>

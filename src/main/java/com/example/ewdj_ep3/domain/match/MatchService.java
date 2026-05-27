@@ -7,6 +7,7 @@ import com.example.ewdj_ep3.dto.response.MatchCapacityDTO;
 import com.example.ewdj_ep3.dto.response.MatchResponseDTO;
 import com.example.ewdj_ep3.exceptions.MatchNotFoundException;
 import com.example.ewdj_ep3.exceptions.TeamNotFoundException;
+import com.example.ewdj_ep3.exceptions.TestException;
 import com.example.ewdj_ep3.mapper.MatchMapper;
 import com.example.ewdj_ep3.persistence.MatchRepository;
 import com.example.ewdj_ep3.persistence.TeamRepository;
@@ -24,8 +25,8 @@ public class MatchService {
     private final MatchRepository matchRepository;
     private final TeamRepository teamRepository;
 
-    public void throwsException() {
-        throw new MatchNotFoundException(1L);
+    public void throwsException() throws TestException {
+        throw new TestException();
     }
 
     public List<MatchResponseDTO> findAll() {

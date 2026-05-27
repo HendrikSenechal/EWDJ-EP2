@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Table(name = "Predictions")
 @Builder
 @Getter
-@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @ToString(exclude = { "user", "match" })
 public class Prediction {

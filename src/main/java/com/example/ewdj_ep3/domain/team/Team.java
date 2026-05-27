@@ -7,16 +7,13 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.List;
-import java.util.Comparator;
-import java.util.stream.Stream;
 
 @Entity
 @NamedQueries({})
 @Table(name = "Teams")
 @Builder
 @Getter
-@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @ToString(exclude = { "id", "homeMatches", "homeMatches" })
 public class Team {

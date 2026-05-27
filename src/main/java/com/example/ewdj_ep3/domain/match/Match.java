@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Table(name = "Matches")
 @Builder
 @Getter
-@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @ToString(exclude = { "id" })
 public class Match {

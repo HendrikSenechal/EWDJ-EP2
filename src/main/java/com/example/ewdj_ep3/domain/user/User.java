@@ -14,7 +14,7 @@ import java.util.Set;
 @Builder
 @Getter
 @Setter
-@NoArgsConstructor(access = AccessLevel.PUBLIC)
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @ToString(exclude = { "id", "roles" })
 public class User {

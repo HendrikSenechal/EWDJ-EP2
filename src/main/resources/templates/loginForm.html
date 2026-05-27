@@ -44,7 +44,7 @@
 
         <div class="form-group">
             <label th:text="#{login.email}" for="email"></label>
-            <input id="email" type="email" name="username">
+            <input id="email" type="email" name="email">
             <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="error"></span>
         </div>
 

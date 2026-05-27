@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 @Table(name = "Matches")
 @Builder
 @Getter
+@Setter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @AllArgsConstructor
 @EqualsAndHashCode(exclude = "id")
